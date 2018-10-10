@@ -1,0 +1,58 @@
+{
+	"description" : "Adjust characters, color, font size and falling speed!",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"characters" : 
+			{
+				"max" : 15000,
+				"min" : 0,
+				"order" : 4,
+				"text" : "Characters range",
+				"type" : "slider",
+				"value" : 2800
+			},
+			"color" : 
+			{
+				"order" : 2,
+				"text" : "Code color",
+				"type" : "color",
+				"value" : "0 1 0"
+			},
+			"fontsize" : 
+			{
+				"max" : 30,
+				"min" : 4,
+				"order" : 3,
+				"text" : "Font size",
+				"type" : "slider",
+				"value" : 10
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.09019607843137255 0.08235294117647059 0.08235294117647059"
+			},
+			"speed" : 
+			{
+				"max" : 100,
+				"min" : 0,
+				"order" : 1,
+				"text" : "Falling speed",
+				"type" : "slider",
+				"value" : 50
+			}
+		}
+	},
+	"monetization" : false,
+	"preview" : "preview.jpg",
+	"tags" : [ "Cyberpunk" ],
+	"title" : "Matrix - falling code",
+	"type" : "web",
+	"visibility" : "public",
+	"workshopid" : 865522809
+}
